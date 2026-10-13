@@ -1,14 +1,13 @@
-const App = () => (
-  <div>Good luck &#128515; </div>
-);
-
-
-
-
-
-
-
-
-
-
-export default App
+import GroceryList from "./GroceryList";
+ 
+const App = () => {
+  return (
+    <div>
+      <h1>Ma liste de courses</h1>
+      <GroceryList />
+    </div>
+  );
+};
+ 
+export default App;
+ 
